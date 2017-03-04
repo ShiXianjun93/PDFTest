@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672C0D471E6A476800230DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D461E6A476800230DA4 /* main.m */; };
+		672C0D4A1E6A476800230DA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D491E6A476800230DA4 /* AppDelegate.m */; };
+		672C0D4D1E6A476800230DA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D4C1E6A476800230DA4 /* ViewController.m */; };
+		672C0D501E6A476800230DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672C0D4E1E6A476800230DA4 /* Main.storyboard */; };
+		672C0D521E6A476800230DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672C0D511E6A476800230DA4 /* Assets.xcassets */; };
+		672C0D551E6A476800230DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672C0D531E6A476800230DA4 /* LaunchScreen.storyboard */; };
+		672C0D911E6A47AA00230DA4 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D5F1E6A47AA00230DA4 /* ReaderConstants.m */; };
+		672C0D921E6A47AA00230DA4 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D611E6A47AA00230DA4 /* ReaderContentPage.m */; };
+		672C0D931E6A47AA00230DA4 /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D631E6A47AA00230DA4 /* ReaderContentTile.m */; };
+		672C0D941E6A47AA00230DA4 /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D651E6A47AA00230DA4 /* ReaderContentView.m */; };
+		672C0D951E6A47AA00230DA4 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D671E6A47AA00230DA4 /* ReaderDocument.m */; };
+		672C0D961E6A47AA00230DA4 /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D691E6A47AA00230DA4 /* ReaderMainPagebar.m */; };
+		672C0D971E6A47AA00230DA4 /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D6B1E6A47AA00230DA4 /* ReaderMainToolbar.m */; };
+		672C0D981E6A47AA00230DA4 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D6D1E6A47AA00230DA4 /* ReaderViewController.m */; };
+		672C0D991E6A47AA00230DA4 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D6F1E6A47AA00230DA4 /* ThumbsMainToolbar.m */; };
+		672C0D9A1E6A47AA00230DA4 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D711E6A47AA00230DA4 /* ThumbsViewController.m */; };
+		672C0D9B1E6A47AA00230DA4 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D741E6A47AA00230DA4 /* CGPDFDocument.m */; };
+		672C0D9C1E6A47AA00230DA4 /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D761E6A47AA00230DA4 /* ReaderDocumentOutline.m */; };
+		672C0D9D1E6A47AA00230DA4 /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D781E6A47AA00230DA4 /* ReaderThumbCache.m */; };
+		672C0D9E1E6A47AA00230DA4 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D7A1E6A47AA00230DA4 /* ReaderThumbFetch.m */; };
+		672C0D9F1E6A47AA00230DA4 /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D7C1E6A47AA00230DA4 /* ReaderThumbQueue.m */; };
+		672C0DA01E6A47AA00230DA4 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D7E1E6A47AA00230DA4 /* ReaderThumbRender.m */; };
+		672C0DA11E6A47AA00230DA4 /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D801E6A47AA00230DA4 /* ReaderThumbRequest.m */; };
+		672C0DA21E6A47AA00230DA4 /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D821E6A47AA00230DA4 /* ReaderThumbsView.m */; };
+		672C0DA31E6A47AA00230DA4 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D841E6A47AA00230DA4 /* ReaderThumbView.m */; };
+		672C0DA41E6A47AA00230DA4 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D861E6A47AA00230DA4 /* UIXToolbarView.m */; };
+		672C0DA51E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D891E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.m */; };
+		672C0DA61E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672C0D8A1E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.xib */; };
+		672C0DA71E6A47AA00230DA4 /* Reader.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 672C0D8C1E6A47AA00230DA4 /* Reader.pdf */; };
+		672C0DA81E6A47AA00230DA4 /* UIButtonSuspension.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D8E1E6A47AA00230DA4 /* UIButtonSuspension.m */; };
+		672C0DA91E6A47AA00230DA4 /* UIImageViewSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0D901E6A47AA00230DA4 /* UIImageViewSign.m */; };
+		672C0DAC1E6A480300230DA4 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0DAB1E6A480300230DA4 /* UIViewExt.m */; };
+		672C0DB01E6A489800230DA4 /* NewMySignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0DAE1E6A489800230DA4 /* NewMySignatureViewController.m */; };
+		672C0DB11E6A489800230DA4 /* NewMySignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672C0DAF1E6A489800230DA4 /* NewMySignatureViewController.xib */; };
+		672C0DB61E6A48DB00230DA4 /* LQBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0DB31E6A48DB00230DA4 /* LQBezierPath.m */; };
+		672C0DB71E6A48DB00230DA4 /* LQView111.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0DB51E6A48DB00230DA4 /* LQView111.m */; };
+		672C0DBA1E6A499B00230DA4 /* NSString+IntervalSince1970.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0DB91E6A499B00230DA4 /* NSString+IntervalSince1970.m */; };
+		672C0DBE1E6A4B5400230DA4 /* ModelFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C0DBD1E6A4B5400230DA4 /* ModelFile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		672C0D421E6A476800230DA4 /* PDFTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672C0D461E6A476800230DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		672C0D481E6A476800230DA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		672C0D491E6A476800230DA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		672C0D4B1E6A476800230DA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		672C0D4C1E6A476800230DA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		672C0D4F1E6A476800230DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		672C0D511E6A476800230DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		672C0D541E6A476800230DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		672C0D561E6A476800230DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672C0D5E1E6A47AA00230DA4 /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderConstants.h; sourceTree = "<group>"; };
+		672C0D5F1E6A47AA00230DA4 /* ReaderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderConstants.m; sourceTree = "<group>"; };
+		672C0D601E6A47AA00230DA4 /* ReaderContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentPage.h; sourceTree = "<group>"; };
+		672C0D611E6A47AA00230DA4 /* ReaderContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentPage.m; sourceTree = "<group>"; };
+		672C0D621E6A47AA00230DA4 /* ReaderContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentTile.h; sourceTree = "<group>"; };
+		672C0D631E6A47AA00230DA4 /* ReaderContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentTile.m; sourceTree = "<group>"; };
+		672C0D641E6A47AA00230DA4 /* ReaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentView.h; sourceTree = "<group>"; };
+		672C0D651E6A47AA00230DA4 /* ReaderContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentView.m; sourceTree = "<group>"; };
+		672C0D661E6A47AA00230DA4 /* ReaderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocument.h; sourceTree = "<group>"; };
+		672C0D671E6A47AA00230DA4 /* ReaderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocument.m; sourceTree = "<group>"; };
+		672C0D681E6A47AA00230DA4 /* ReaderMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainPagebar.h; sourceTree = "<group>"; };
+		672C0D691E6A47AA00230DA4 /* ReaderMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainPagebar.m; sourceTree = "<group>"; };
+		672C0D6A1E6A47AA00230DA4 /* ReaderMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainToolbar.h; sourceTree = "<group>"; };
+		672C0D6B1E6A47AA00230DA4 /* ReaderMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainToolbar.m; sourceTree = "<group>"; };
+		672C0D6C1E6A47AA00230DA4 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		672C0D6D1E6A47AA00230DA4 /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		672C0D6E1E6A47AA00230DA4 /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		672C0D6F1E6A47AA00230DA4 /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		672C0D701E6A47AA00230DA4 /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		672C0D711E6A47AA00230DA4 /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		672C0D731E6A47AA00230DA4 /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		672C0D741E6A47AA00230DA4 /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		672C0D751E6A47AA00230DA4 /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocumentOutline.h; sourceTree = "<group>"; };
+		672C0D761E6A47AA00230DA4 /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		672C0D771E6A47AA00230DA4 /* ReaderThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbCache.h; sourceTree = "<group>"; };
+		672C0D781E6A47AA00230DA4 /* ReaderThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbCache.m; sourceTree = "<group>"; };
+		672C0D791E6A47AA00230DA4 /* ReaderThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbFetch.h; sourceTree = "<group>"; };
+		672C0D7A1E6A47AA00230DA4 /* ReaderThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbFetch.m; sourceTree = "<group>"; };
+		672C0D7B1E6A47AA00230DA4 /* ReaderThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbQueue.h; sourceTree = "<group>"; };
+		672C0D7C1E6A47AA00230DA4 /* ReaderThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbQueue.m; sourceTree = "<group>"; };
+		672C0D7D1E6A47AA00230DA4 /* ReaderThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRender.h; sourceTree = "<group>"; };
+		672C0D7E1E6A47AA00230DA4 /* ReaderThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRender.m; sourceTree = "<group>"; };
+		672C0D7F1E6A47AA00230DA4 /* ReaderThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRequest.h; sourceTree = "<group>"; };
+		672C0D801E6A47AA00230DA4 /* ReaderThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRequest.m; sourceTree = "<group>"; };
+		672C0D811E6A47AA00230DA4 /* ReaderThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbsView.h; sourceTree = "<group>"; };
+		672C0D821E6A47AA00230DA4 /* ReaderThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbsView.m; sourceTree = "<group>"; };
+		672C0D831E6A47AA00230DA4 /* ReaderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbView.h; sourceTree = "<group>"; };
+		672C0D841E6A47AA00230DA4 /* ReaderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbView.m; sourceTree = "<group>"; };
+		672C0D851E6A47AA00230DA4 /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
+		672C0D861E6A47AA00230DA4 /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		672C0D881E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControllerPDFOpinionEdit.h; sourceTree = "<group>"; };
+		672C0D891E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControllerPDFOpinionEdit.m; sourceTree = "<group>"; };
+		672C0D8A1E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIControllerPDFOpinionEdit.xib; sourceTree = "<group>"; };
+		672C0D8C1E6A47AA00230DA4 /* Reader.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Reader.pdf; sourceTree = "<group>"; };
+		672C0D8D1E6A47AA00230DA4 /* UIButtonSuspension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonSuspension.h; sourceTree = "<group>"; };
+		672C0D8E1E6A47AA00230DA4 /* UIButtonSuspension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonSuspension.m; sourceTree = "<group>"; };
+		672C0D8F1E6A47AA00230DA4 /* UIImageViewSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewSign.h; sourceTree = "<group>"; };
+		672C0D901E6A47AA00230DA4 /* UIImageViewSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewSign.m; sourceTree = "<group>"; };
+		672C0DAA1E6A480300230DA4 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		672C0DAB1E6A480300230DA4 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		672C0DAD1E6A489800230DA4 /* NewMySignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMySignatureViewController.h; sourceTree = "<group>"; };
+		672C0DAE1E6A489800230DA4 /* NewMySignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMySignatureViewController.m; sourceTree = "<group>"; };
+		672C0DAF1E6A489800230DA4 /* NewMySignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewMySignatureViewController.xib; sourceTree = "<group>"; };
+		672C0DB21E6A48DB00230DA4 /* LQBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBezierPath.h; sourceTree = "<group>"; };
+		672C0DB31E6A48DB00230DA4 /* LQBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBezierPath.m; sourceTree = "<group>"; };
+		672C0DB41E6A48DB00230DA4 /* LQView111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQView111.h; sourceTree = "<group>"; };
+		672C0DB51E6A48DB00230DA4 /* LQView111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQView111.m; sourceTree = "<group>"; };
+		672C0DB81E6A499B00230DA4 /* NSString+IntervalSince1970.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IntervalSince1970.h"; sourceTree = "<group>"; };
+		672C0DB91E6A499B00230DA4 /* NSString+IntervalSince1970.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IntervalSince1970.m"; sourceTree = "<group>"; };
+		672C0DBC1E6A4B5400230DA4 /* ModelFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelFile.h; sourceTree = "<group>"; };
+		672C0DBD1E6A4B5400230DA4 /* ModelFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		672C0D3F1E6A476800230DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672C0D391E6A476800230DA4 = {
+			isa = PBXGroup;
+			children = (
+				672C0D441E6A476800230DA4 /* PDFTest */,
+				672C0D431E6A476800230DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		672C0D431E6A476800230DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D421E6A476800230DA4 /* PDFTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672C0D441E6A476800230DA4 /* PDFTest */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D5C1E6A47AA00230DA4 /* PDFOperation */,
+				672C0D481E6A476800230DA4 /* AppDelegate.h */,
+				672C0D491E6A476800230DA4 /* AppDelegate.m */,
+				672C0D4B1E6A476800230DA4 /* ViewController.h */,
+				672C0D4C1E6A476800230DA4 /* ViewController.m */,
+				672C0D4E1E6A476800230DA4 /* Main.storyboard */,
+				672C0D511E6A476800230DA4 /* Assets.xcassets */,
+				672C0D531E6A476800230DA4 /* LaunchScreen.storyboard */,
+				672C0D561E6A476800230DA4 /* Info.plist */,
+				672C0D451E6A476800230DA4 /* Supporting Files */,
+			);
+			path = PDFTest;
+			sourceTree = "<group>";
+		};
+		672C0D451E6A476800230DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D461E6A476800230DA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		672C0D5C1E6A47AA00230DA4 /* PDFOperation */ = {
+			isa = PBXGroup;
+			children = (
+				672C0DBB1E6A4B3400230DA4 /* Models */,
+				672C0D5D1E6A47AA00230DA4 /* Sources */,
+				672C0D721E6A47AA00230DA4 /* Support */,
+				672C0D871E6A47AA00230DA4 /* ViewControllers */,
+				672C0D8B1E6A47AA00230DA4 /* Views */,
+			);
+			path = PDFOperation;
+			sourceTree = "<group>";
+		};
+		672C0D5D1E6A47AA00230DA4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D5E1E6A47AA00230DA4 /* ReaderConstants.h */,
+				672C0D5F1E6A47AA00230DA4 /* ReaderConstants.m */,
+				672C0D601E6A47AA00230DA4 /* ReaderContentPage.h */,
+				672C0D611E6A47AA00230DA4 /* ReaderContentPage.m */,
+				672C0D621E6A47AA00230DA4 /* ReaderContentTile.h */,
+				672C0D631E6A47AA00230DA4 /* ReaderContentTile.m */,
+				672C0D641E6A47AA00230DA4 /* ReaderContentView.h */,
+				672C0D651E6A47AA00230DA4 /* ReaderContentView.m */,
+				672C0D661E6A47AA00230DA4 /* ReaderDocument.h */,
+				672C0D671E6A47AA00230DA4 /* ReaderDocument.m */,
+				672C0D681E6A47AA00230DA4 /* ReaderMainPagebar.h */,
+				672C0D691E6A47AA00230DA4 /* ReaderMainPagebar.m */,
+				672C0D6A1E6A47AA00230DA4 /* ReaderMainToolbar.h */,
+				672C0D6B1E6A47AA00230DA4 /* ReaderMainToolbar.m */,
+				672C0D6C1E6A47AA00230DA4 /* ReaderViewController.h */,
+				672C0D6D1E6A47AA00230DA4 /* ReaderViewController.m */,
+				672C0D6E1E6A47AA00230DA4 /* ThumbsMainToolbar.h */,
+				672C0D6F1E6A47AA00230DA4 /* ThumbsMainToolbar.m */,
+				672C0D701E6A47AA00230DA4 /* ThumbsViewController.h */,
+				672C0D711E6A47AA00230DA4 /* ThumbsViewController.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		672C0D721E6A47AA00230DA4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D731E6A47AA00230DA4 /* CGPDFDocument.h */,
+				672C0D741E6A47AA00230DA4 /* CGPDFDocument.m */,
+				672C0D751E6A47AA00230DA4 /* ReaderDocumentOutline.h */,
+				672C0D761E6A47AA00230DA4 /* ReaderDocumentOutline.m */,
+				672C0D771E6A47AA00230DA4 /* ReaderThumbCache.h */,
+				672C0D781E6A47AA00230DA4 /* ReaderThumbCache.m */,
+				672C0D791E6A47AA00230DA4 /* ReaderThumbFetch.h */,
+				672C0D7A1E6A47AA00230DA4 /* ReaderThumbFetch.m */,
+				672C0D7B1E6A47AA00230DA4 /* ReaderThumbQueue.h */,
+				672C0D7C1E6A47AA00230DA4 /* ReaderThumbQueue.m */,
+				672C0D7D1E6A47AA00230DA4 /* ReaderThumbRender.h */,
+				672C0D7E1E6A47AA00230DA4 /* ReaderThumbRender.m */,
+				672C0D7F1E6A47AA00230DA4 /* ReaderThumbRequest.h */,
+				672C0D801E6A47AA00230DA4 /* ReaderThumbRequest.m */,
+				672C0D811E6A47AA00230DA4 /* ReaderThumbsView.h */,
+				672C0D821E6A47AA00230DA4 /* ReaderThumbsView.m */,
+				672C0D831E6A47AA00230DA4 /* ReaderThumbView.h */,
+				672C0D841E6A47AA00230DA4 /* ReaderThumbView.m */,
+				672C0D851E6A47AA00230DA4 /* UIXToolbarView.h */,
+				672C0D861E6A47AA00230DA4 /* UIXToolbarView.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		672C0D871E6A47AA00230DA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D881E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.h */,
+				672C0D891E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.m */,
+				672C0D8A1E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.xib */,
+				672C0DAD1E6A489800230DA4 /* NewMySignatureViewController.h */,
+				672C0DAE1E6A489800230DA4 /* NewMySignatureViewController.m */,
+				672C0DAF1E6A489800230DA4 /* NewMySignatureViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		672C0D8B1E6A47AA00230DA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				672C0D8C1E6A47AA00230DA4 /* Reader.pdf */,
+				672C0D8D1E6A47AA00230DA4 /* UIButtonSuspension.h */,
+				672C0D8E1E6A47AA00230DA4 /* UIButtonSuspension.m */,
+				672C0D8F1E6A47AA00230DA4 /* UIImageViewSign.h */,
+				672C0D901E6A47AA00230DA4 /* UIImageViewSign.m */,
+				672C0DAA1E6A480300230DA4 /* UIViewExt.h */,
+				672C0DAB1E6A480300230DA4 /* UIViewExt.m */,
+				672C0DB21E6A48DB00230DA4 /* LQBezierPath.h */,
+				672C0DB31E6A48DB00230DA4 /* LQBezierPath.m */,
+				672C0DB41E6A48DB00230DA4 /* LQView111.h */,
+				672C0DB51E6A48DB00230DA4 /* LQView111.m */,
+				672C0DB81E6A499B00230DA4 /* NSString+IntervalSince1970.h */,
+				672C0DB91E6A499B00230DA4 /* NSString+IntervalSince1970.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		672C0DBB1E6A4B3400230DA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				672C0DBC1E6A4B5400230DA4 /* ModelFile.h */,
+				672C0DBD1E6A4B5400230DA4 /* ModelFile.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		672C0D411E6A476800230DA4 /* PDFTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672C0D591E6A476800230DA4 /* Build configuration list for PBXNativeTarget "PDFTest" */;
+			buildPhases = (
+				672C0D3E1E6A476800230DA4 /* Sources */,
+				672C0D3F1E6A476800230DA4 /* Frameworks */,
+				672C0D401E6A476800230DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFTest;
+			productName = PDFTest;
+			productReference = 672C0D421E6A476800230DA4 /* PDFTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		672C0D3A1E6A476800230DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "石显军";
+				TargetAttributes = {
+					672C0D411E6A476800230DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 672C0D3D1E6A476800230DA4 /* Build configuration list for PBXProject "PDFTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 672C0D391E6A476800230DA4;
+			productRefGroup = 672C0D431E6A476800230DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				672C0D411E6A476800230DA4 /* PDFTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		672C0D401E6A476800230DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672C0D551E6A476800230DA4 /* LaunchScreen.storyboard in Resources */,
+				672C0DA61E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.xib in Resources */,
+				672C0DB11E6A489800230DA4 /* NewMySignatureViewController.xib in Resources */,
+				672C0D521E6A476800230DA4 /* Assets.xcassets in Resources */,
+				672C0DA71E6A47AA00230DA4 /* Reader.pdf in Resources */,
+				672C0D501E6A476800230DA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		672C0D3E1E6A476800230DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672C0D9C1E6A47AA00230DA4 /* ReaderDocumentOutline.m in Sources */,
+				672C0D931E6A47AA00230DA4 /* ReaderContentTile.m in Sources */,
+				672C0D991E6A47AA00230DA4 /* ThumbsMainToolbar.m in Sources */,
+				672C0DA91E6A47AA00230DA4 /* UIImageViewSign.m in Sources */,
+				672C0DAC1E6A480300230DA4 /* UIViewExt.m in Sources */,
+				672C0D921E6A47AA00230DA4 /* ReaderContentPage.m in Sources */,
+				672C0D9D1E6A47AA00230DA4 /* ReaderThumbCache.m in Sources */,
+				672C0D9B1E6A47AA00230DA4 /* CGPDFDocument.m in Sources */,
+				672C0D981E6A47AA00230DA4 /* ReaderViewController.m in Sources */,
+				672C0D961E6A47AA00230DA4 /* ReaderMainPagebar.m in Sources */,
+				672C0DB01E6A489800230DA4 /* NewMySignatureViewController.m in Sources */,
+				672C0DA31E6A47AA00230DA4 /* ReaderThumbView.m in Sources */,
+				672C0DA21E6A47AA00230DA4 /* ReaderThumbsView.m in Sources */,
+				672C0D971E6A47AA00230DA4 /* ReaderMainToolbar.m in Sources */,
+				672C0D9F1E6A47AA00230DA4 /* ReaderThumbQueue.m in Sources */,
+				672C0DBA1E6A499B00230DA4 /* NSString+IntervalSince1970.m in Sources */,
+				672C0D911E6A47AA00230DA4 /* ReaderConstants.m in Sources */,
+				672C0DA51E6A47AA00230DA4 /* UIControllerPDFOpinionEdit.m in Sources */,
+				672C0DB61E6A48DB00230DA4 /* LQBezierPath.m in Sources */,
+				672C0DA11E6A47AA00230DA4 /* ReaderThumbRequest.m in Sources */,
+				672C0D9E1E6A47AA00230DA4 /* ReaderThumbFetch.m in Sources */,
+				672C0D4D1E6A476800230DA4 /* ViewController.m in Sources */,
+				672C0D941E6A47AA00230DA4 /* ReaderContentView.m in Sources */,
+				672C0DBE1E6A4B5400230DA4 /* ModelFile.m in Sources */,
+				672C0D951E6A47AA00230DA4 /* ReaderDocument.m in Sources */,
+				672C0D4A1E6A476800230DA4 /* AppDelegate.m in Sources */,
+				672C0DA81E6A47AA00230DA4 /* UIButtonSuspension.m in Sources */,
+				672C0DA01E6A47AA00230DA4 /* ReaderThumbRender.m in Sources */,
+				672C0DA41E6A47AA00230DA4 /* UIXToolbarView.m in Sources */,
+				672C0D9A1E6A47AA00230DA4 /* ThumbsViewController.m in Sources */,
+				672C0D471E6A476800230DA4 /* main.m in Sources */,
+				672C0DB71E6A48DB00230DA4 /* LQView111.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		672C0D4E1E6A476800230DA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672C0D4F1E6A476800230DA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		672C0D531E6A476800230DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672C0D541E6A476800230DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		672C0D571E6A476800230DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		672C0D581E6A476800230DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		672C0D5A1E6A476800230DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDFTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shixianjun.PDFTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		672C0D5B1E6A476800230DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDFTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shixianjun.PDFTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		672C0D3D1E6A476800230DA4 /* Build configuration list for PBXProject "PDFTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672C0D571E6A476800230DA4 /* Debug */,
+				672C0D581E6A476800230DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672C0D591E6A476800230DA4 /* Build configuration list for PBXNativeTarget "PDFTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672C0D5A1E6A476800230DA4 /* Debug */,
+				672C0D5B1E6A476800230DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 672C0D3A1E6A476800230DA4 /* Project object */;
+}
